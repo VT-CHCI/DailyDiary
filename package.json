@@ -1,0 +1,24 @@
+{
+  "name": "DailyDiary",
+  "version": "0.0.0",
+  "description": "text people 1x per day at specified time",
+  "main": "textem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/VT-CHCI/DailyDiary.git"
+  },
+  "author": "Michael Stewart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VT-CHCI/DailyDiary/issues"
+  },
+  "homepage": "https://github.com/VT-CHCI/DailyDiary",
+  "dependencies": {
+    "twilio": "^1.11.1",
+    "cron": "^1.0.9",
+    "nodemailer": "<=0.7.1"
+  }
+}
